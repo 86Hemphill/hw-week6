@@ -1,0 +1,23 @@
+h1 {
+    background-color: rgb(100, 100, 100);
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+* {
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    background-color: rgb(100, 100, 100);
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+.search-list {
+    padding-top: 15px;
+}
+
+
