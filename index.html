@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
 </head>
 <body>
     <header>
@@ -17,15 +16,35 @@
     </header>
     <main class="container-fluid">
         <div class="row">
-            <div class="search-list col-xl-4">
+            <div class="search-list col-xl-3">
                 <div class="input-group md-form form-sm form-1 pl-0">
                     <div class="search-container">
                         <input type="text" placeholder="Search For A City :" id="search-term">
                         <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
-                      </div>
+                    </div>
+                </div>
+                <div id="cities"></div>
             </div>
-            <div class="weather col-xl-8">
-                
+            <div class="col-xl-9" id="weather">
+                <div class="row">
+                    <div class="col-xl-4" id="cityName"></div>
+                    <div class="col-xl-4" id="icon">
+                        <img id="wicon" src="">
+                    </div>
+                    <div class="col-xl-4" id="currDate"></div>
+                </div>
+                <div class="row">
+                    <div id="temp"></div>
+                </div>
+                <div class="row">
+                    <div id="humidity"></div>
+                </div>
+                <div class="row">
+                    <div id="wind"></div>
+                </div>
+                <div class="row">
+                    <div id="uvi"></div>
+                </div>
             </div>
         </div>
     </main>
@@ -39,6 +58,7 @@
     
     
 </body> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery.js"></script> 
     <script type="text/javascript" src="script.js"></script>  
 </html>
