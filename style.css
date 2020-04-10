@@ -34,3 +34,8 @@ h1 {
 #wicon {
     height: 80px;
 }
+
+.forecast {
+    background-color: rgb(129, 183, 255);
+    color: white;
+}
