@@ -38,4 +38,7 @@ h1 {
 .forecast {
     background-color: rgb(129, 183, 255);
     color: white;
+    font-size: 20px;
+    margin: 5px;
 }
+
